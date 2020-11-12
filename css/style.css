@@ -157,6 +157,7 @@ a {
 
 .vp-content {
   max-width: 600px;
+  padding: 20px;
   padding-top: 150px;
   color: white;
   display: block;
@@ -164,7 +165,7 @@ a {
 }
 
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .vp-content p {
@@ -178,7 +179,7 @@ a {
 
 .features {
   overflow: auto;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 20px 100px 20px;
   text-align: center;
 }
 
@@ -196,7 +197,7 @@ a {
 }
 
 .reservation {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 20px 100px 20px;
   text-align: center;
 }
 
@@ -218,6 +219,7 @@ footer p {
 .where {
   padding: 150px 0px 100px 0px;
   overflow: auto;
+  min-height: 100vh;
 }
 
 .where-img {
@@ -235,12 +237,13 @@ footer p {
 /* COntact */
 
 .contact {
-  padding: 100px 0px 100px 0px;
+  padding: 180px 0px 100px 0px;
   min-height: 100vh;
 }
 
 .contact-form-container {
   display: block;
+  padding: 20px;
   max-width: 600px;
   margin: auto;
 }
