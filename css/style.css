@@ -21,6 +21,7 @@ h3 {
 }
 
 p {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -80,6 +81,28 @@ a {
 .my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.chip {
+  width: 25px;
+  border-radius: 100%;
+  background: #333333;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.chip-red {
+  background-color: rgb(227 6 19);
+}
+
+.chip-green {
+  background-color: rgb(175 203 8);
 }
 
 /* Header */
@@ -188,4 +211,59 @@ footer {
 
 footer p {
   margin-bottom: 0px;
+}
+
+/* Where */
+
+.where {
+  padding: 150px 0px 100px 0px;
+  overflow: auto;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.where-text {
+  float: right;
+  width: 40%;
+}
+
+/* COntact */
+
+.contact {
+  padding: 100px 0px 100px 0px;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container h1 {
+  margin-bottom: 30px;
+}
+
+.contact-form-container label {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-form-container input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.contact-form-container textarea {
+  min-height: 80px;
+  margin-bottom: 30px;
 }
